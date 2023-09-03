@@ -15,6 +15,7 @@ header{
     justify-content: space-between;
     background-color:  #00723F;
     margin: 0px auto;
+    background-position:;
 }
 
 #logo {
@@ -42,10 +43,10 @@ header{
     position: fixed;
     z-index: 10;
     width: 300px;
-    left: 70%;
+    left: 50%;
     background-color: #00723F;
     height: 100vh;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .showmodal ul{
@@ -82,11 +83,195 @@ header{
 }
 
 #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(../image/homebg.jpg);
-    width: 100vw;
-    height: 100vh;
+    background-color: #51af85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+    height: 70vh;
+    padding: 10px;
 
 }
+
+.htitle{
+    color: white;
+    padding:10px;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 2px solid #00723F;
+    background-color: #00723f50;
+    border-radius: 6px;
+    
+}
+.btn {
+    background-color: #009150;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid #00723F;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    background-color: #00723F;
+    transition-duration: 0.5s;
+}
+.calltoaction{
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+#empresa h2 {
+    text-align: center;
+    color: #011f11;
+    margin: 10px;
+}
+
+#empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#empresa p {
+    color: #01130a;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px;
+}
+
+
+
+#img-empresa {
+    width: 300px;
+    border: 2px solid green;
+    border-radius: 50%;
+    margin: 30px;
+    padding: 10px;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+#servicos img{
+    width: 300px;
+    border-radius: 50%;
+    margin: 15px;
+}
+#servicos h2{
+    margin-bottom: 20px;
+    max-width: 348px;
+}
+
+#veterinaria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #00723F;
+    text-indent: 20px;
+    outline-color: #51af85;
+}
+
+textarea{
+    width: 300px;
+    resize: none;
+    border: 2px solid #00723F;
+    text-indent: 20px;
+    outline-color: #51af85;
+}
+
+#btn-form{
+    background-color: #00723F;
+    color: white;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+
+#btn-form:hover{
+    background-color: #bcf0d8;
+    color: #00723F; 
+}
+
+
+footer{
+    width: 100%;
+    background-color: #00723F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.contatos-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.endereco{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
 
 
 
