@@ -10,12 +10,15 @@
 }
 
 header{
+    position: fixed;
+    width: 100%;
+}
+
+.container-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:  #00723F;
-    margin: 0px auto;
-    background-position:;
 }
 
 #logo {
@@ -24,7 +27,7 @@ header{
 }
 
 #btn-menu-ico {
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 38px;
     color: white;
     cursor: pointer;
@@ -262,7 +265,6 @@ footer{
     color: white;
     font-size: 30px;
     margin: 10px;
-
 }
 
 
